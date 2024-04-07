@@ -1,0 +1,7 @@
+redis
+python-redis-cache
+fastapi
+uvicorn
+python-dotenv
+google-generativeai
+yfinance[nospam]
