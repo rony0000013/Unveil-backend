@@ -21,7 +21,7 @@ client = redis.from_url(os.getenv("REDIS_URI"), decode_responses=True)
 rediscache = RedisCache(redis_client=client)
 
 
-prompt = f"Write a summary of the current condition of the stock in beginner friendly manner . the summary should be in the form of a story. It should be simple enough to be understood by naive people. the summary must contain some facts with some numerical data from the data. the output should be in markdown format with minimum of 300 words.\
+prompt = f"Write a summary of the current condition of the stock in beginner friendly manner . the summary should be in the form of a story. It should be simple enough to be understood by naive people. the summary must contain some facts with some numerical data from the data. any numerical data should be in a bold format of markdown. the output should be in markdown format with minimum of 300 words.\
 The company information: "
 
    
